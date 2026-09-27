@@ -1,0 +1,6 @@
+{
+  "name": "LIFEKIT",
+  "description": "Life learning sandbox for ages 14-21 to master real-world skills: taxes, rental agreements, credit cards, budgeting, and careers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

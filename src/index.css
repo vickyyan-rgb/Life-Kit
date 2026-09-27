@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cartoon: 'Fredoka', cursive, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-cartoon {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+/* Black text with vivid neon outlines */
+.neon-text-cyan {
+  color: #000000;
+  -webkit-text-stroke: 1.4px #00f0ff;
+  text-stroke: 1.4px #00f0ff;
+  filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.8));
+}
+
+.neon-text-pink {
+  color: #000000;
+  -webkit-text-stroke: 1.4px #ff007f;
+  text-stroke: 1.4px #ff007f;
+  filter: drop-shadow(0 0 6px rgba(255, 0, 127, 0.8));
+}
+
+.neon-text-yellow {
+  color: #000000;
+  -webkit-text-stroke: 1.4px #ffe600;
+  text-stroke: 1.4px #ffe600;
+  filter: drop-shadow(0 0 6px rgba(255, 230, 0, 0.8));
+}
+
+.neon-text-lime {
+  color: #000000;
+  -webkit-text-stroke: 1.4px #39ff14;
+  text-stroke: 1.4px #39ff14;
+  filter: drop-shadow(0 0 6px rgba(57, 255, 20, 0.8));
+}
+
+.neon-text-white {
+  color: #000000;
+  -webkit-text-stroke: 1.4px #ffffff;
+  text-stroke: 1.4px #ffffff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.8));
+}
+
+/* White filled icons with glowing neon outlines */
+.icon-white-neon {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 6px #00f0ff);
+}
+
+.icon-white-pink {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 6px #ff007f);
+}
+
+.icon-white-lime {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 6px #39ff14);
+}
+
+.icon-white-yellow {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 6px #ffe600);
+}
+
+/* Pure Black card styling with neon borders */
+.black-card {
+  background-color: #000000;
+  border: 2px solid #00f0ff;
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.4);
+}
+
+.black-card-pink {
+  background-color: #000000;
+  border: 2px solid #ff007f;
+  box-shadow: 0 0 14px rgba(255, 0, 127, 0.4);
+}
+
+.black-card-yellow {
+  background-color: #000000;
+  border: 2px solid #ffe600;
+  box-shadow: 0 0 14px rgba(255, 230, 0, 0.4);
+}
+
+.black-card-lime {
+  background-color: #000000;
+  border: 2px solid #39ff14;
+  box-shadow: 0 0 14px rgba(57, 255, 20, 0.4);
+}
